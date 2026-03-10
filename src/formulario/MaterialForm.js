@@ -305,7 +305,8 @@ const MaterialForm = () => {
 
   const countEmails = async () => {
     const res = await axios.get(
-      "https://spanishwithalex.com/api/users/countEmails",
+      // "https://spanishwithalex.com/api/users/countEmails",
+      "/api/emails/count",
     );
 
     console.log(res.data);

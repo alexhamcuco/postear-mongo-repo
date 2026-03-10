@@ -28,14 +28,14 @@ export const POST = async (req) => {
   console.log(subject, html);
   await connectMongoDB();
   try {
-    // const newsletterList = await UserNewsletter.find();
-    const emailAlex = ["blackbookopen@gmail.com"];
+    const newsletterList = await UserNewsletter.find();
+    // const emailAlex = ["blackbookopen@gmail.com"];
 
-    // const newsletterEmailList = newsletterList.map((user) => user.email);
+    const newsletterEmailList = newsletterList.map((user) => user.email);
     //para hacer una pruebla con solo mi email, comenta la linea anterior y descomenta la siguiente
     await transporter.sendMail({
       from: process.env.NODEMAILER_EMAIL,
-      bcc: [emailAlex],
+      bcc: [newsletterEmailList],
       subject: subject,
       html: html,
     });

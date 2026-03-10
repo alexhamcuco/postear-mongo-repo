@@ -1,9 +1,13 @@
 import mongoose from "mongoose";
 
-const userNewsletterSchema = new mongoose.Schema({
+const UserNewsletterSchema = new mongoose.Schema({
   email: String,
   fecha: Date,
   contador: { type: Number, default: 0 },
 });
 
-export default mongoose.model("UserNewsletter", userNewsletterSchema);
+const UserNewsletter =
+  mongoose.models.UserNewsletter ||
+  mongoose.model("UserNewsletter", UserNewsletterSchema);
+
+export default UserNewsletter;
