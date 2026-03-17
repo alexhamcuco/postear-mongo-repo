@@ -72,5 +72,7 @@ export const GET = async (req) => {
     }
   }
 
-  return NextResponse.json("ok");
+  return NextResponse.json({
+    response: `ok ${newsletterList}`,
+  });
 };
