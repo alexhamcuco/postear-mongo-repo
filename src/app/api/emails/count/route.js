@@ -56,23 +56,25 @@ const sendEmails = async (email, posicion) => {
   console.log(`Correo enviado a ${email} con índice ${posicion}`);
 };
 
-export const GET = async (req) => {
+export const GET = async () => {
   await connectMongoDB();
 
   const newsletterList = await UserNewsletter.find();
-  console.log("counterEmails funcionando");
-  for (const user of newsletterList) {
-    const email = user.email;
-    const doc = await UserNewsletter.findOne({ email });
 
-    if (doc.contador < emails.length) {
-      await sendEmails(email, doc.contador);
-      doc.contador += 1;
-      await doc.save();
+  console.log("counterEmails funcionando");
+
+  for (const user of newsletterList) {
+    if (user.contador < emails.length) {
+      await sendEmails(user.email, user.contador);
+
+      await UserNewsletter.updateOne(
+        { _id: user._id },
+        { $inc: { contador: 1 } },
+      );
     }
   }
 
   return NextResponse.json({
-    response: `ok ${newsletterList}`,
+    response: "ok",
   });
 };
