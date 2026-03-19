@@ -93,7 +93,7 @@ const professionalJourneyEmail = () => `
   </p>
 
   <p>
-    When I began my studies in educational science, I found my calling. i learned to analyze data to enhance educational practices, explore techniques to improve classes, and support studentes and  other educators.
+    When I began my studies in educational science, I found my calling. I learned to analyze data to enhance educational practices, explore techniques to improve classes, and support students and  other educators.
   </p>
 
   <p>

@@ -1,9 +1,9 @@
-const noSaboKidsEmail = () => `
+const spanishCultureEmail = () => `
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The "Mistake" That Became a Real Word</title>
+  <title>Spanish Things That Still Surprise Me (And I'm Spanish!)</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -66,29 +66,33 @@ const noSaboKidsEmail = () => `
 <body>
  
   <div style="text-align: center; margin-bottom: 20px;">
-    <img src="https://www.spanishwithalex.com/images/miniatures/verVsMirar.png" alt="No Sabo Kids" style="max-width: 100%; height: auto; border-radius: 8px;">
+    <img src="https://www.spanishwithalex.com/images/miniatures/newslettersValenciaBeach.jpg" alt="Spanish Culture" style="max-width: 100%; height: auto; border-radius: 8px;">
   </div>
  
-  <h1>The "Mistake" That Became a Real Word 😲</h1>
+  <h1>Spanish Things That Still Surprise Me (And I'm Spanish!) 😄</h1>
  
   <p class="first-paragraph">
-    Have you ever heard the term <span class="highlight">"no sabo kids"</span>? It refers to second-generation Latino children in the US who grew up mixing English and Spanish — and sometimes say things like "no sabo" instead of "no sé". Grammatically? Not standard Spanish. Linguistically? Absolutely fascinating.
+    You'd think that after living in Spain your whole life, nothing would catch you off guard anymore. But here's the thing — Spain has a way of keeping you on your toes, even when you least expect it.
   </p>
  
   <p>
-    Here's the thing: "no sabo" follows a completely logical pattern. In Spanish, most verbs in the first person singular end in <span class="highlight">-o</span>: hablo, como, escribo. So a child hears the language and applies the rule — yo sabo. It makes perfect sense. Their brain is doing exactly what it should do: finding patterns.
+    Take <span class="highlight">the noise</span>. Spain is loud. Wonderfully, gloriously loud. Families eating Sunday lunch, friends catching up at a café, neighbours chatting from their balconies — it's all at full volume, and nobody bats an eye. The first time a foreign friend visited me and asked "is something wrong? Why is everyone shouting?" I had to laugh. That's just… Tuesday.
   </p>
  
   <p>
-    This is actually how languages evolve. What we call a "mistake" today can become standard usage in a generation. Latin evolved into Spanish, French, Italian and Portuguese partly through "mistakes" — people simplifying, mixing, adapting. Language is alive, and it grows through its speakers.
+    Then there's <span class="highlight">the schedule</span>. Lunch at 3pm. Dinner at 10pm. A nap somewhere in between if you're lucky. I know it sounds chaotic from the outside, but once you live it, everything else feels rushed. Why eat dinner at 7pm when the evening is just getting started?
   </p>
  
   <p>
-    So next time you say something that isn't quite right in Spanish, remember: you're not failing at the language. You're participating in it. Your brain is making connections, finding patterns, building bridges. That's not a mistake — that's <span class="highlight">how every language learner has ever learned</span>.
+    And don't get me started on <span class="highlight">"ahora"</span>. In Spanish, "ahora" can mean right now, in a little while, or sometime today — all depending on the tone. It's wonderfully flexible. And completely maddening if you're not used to it.
   </p>
  
   <p>
-    I love talking about this kind of thing — the quirky, surprising side of Spanish — in my podcast. If you enjoy learning through stories and curiosities, you'll feel right at home. 👇
+    The beautiful thing is that all of this culture lives inside the language. When you learn Spanish, you're not just learning grammar — you're learning a way of seeing the world. A warmer, louder, later, more delicious world. 🌞
+  </p>
+ 
+  <p>
+    I explore this connection between language and culture in my podcast. Come and have a listen — it might just be the most enjoyable Spanish lesson you've ever had. 👇
   </p>
  
   <p style="text-align: center;">
@@ -107,4 +111,4 @@ const noSaboKidsEmail = () => `
 </html>
 `;
 
-export default noSaboKidsEmail;
+export default spanishCultureEmail;

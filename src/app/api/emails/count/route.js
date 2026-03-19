@@ -6,6 +6,12 @@ import motivationalEmail from "../../newsletters/motivationalEmail4.js";
 import letsTalkSpainEmail from "../../newsletters/letsTalkSpainEmail3.js";
 import iSolveProblemsEmail from "../../newsletters/iSolveProblemsEmail5.js";
 import welcomingEmail from "../../newsletters/welcomingEmail.js";
+import friendsEmail from "../../newsletters/7Email.js";
+import goodTeacherEmail from "../../newsletters/6Email.js";
+import psychologyLearningEmail from "../../newsletters/8Email.js";
+import noSaboKidsEmail from "../../newsletters/9Email.js";
+import spanishCultureEmail from "../../newsletters/10Email.js";
+import successStudentEmail from "../../newsletters/11Email.js";
 
 export const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -44,6 +50,36 @@ const emails = [
     subject: "🔴 I solve problems.",
     html: iSolveProblemsEmail(),
   },
+
+  {
+    subject: "🔴 I solve problems.",
+    html: friendsEmail(),
+  },
+
+  {
+    subject: "🔴 I solve problems.",
+    html: goodTeacherEmail(),
+  },
+
+  {
+    subject: "🔴 I solve problems.",
+    html: psychologyLearningEmail(),
+  },
+
+  {
+    subject: "🔴 I solve problems.",
+    html: noSaboKidsEmail(),
+  },
+
+  {
+    subject: "🔴 I solve problems.",
+    html: spanishCultureEmail(),
+  },
+
+  {
+    subject: "🔴 I solve problems.",
+    html: successStudentEmail(),
+  },
 ];
 
 const sendEmails = async (email, posicion) => {
@@ -53,7 +89,6 @@ const sendEmails = async (email, posicion) => {
     subject: emails[posicion].subject,
     html: emails[posicion].html,
   });
-  console.log(`Correo enviado a ${email} con índice ${posicion}`);
 };
 
 export const GET = async () => {

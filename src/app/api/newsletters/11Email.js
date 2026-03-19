@@ -1,9 +1,9 @@
-const noSaboKidsEmail = () => `
+const successStudentEmail = () => `
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The "Mistake" That Became a Real Word</title>
+  <title>The Secret Nobody Tells You About Learning Spanish</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -66,29 +66,33 @@ const noSaboKidsEmail = () => `
 <body>
  
   <div style="text-align: center; margin-bottom: 20px;">
-    <img src="https://www.spanishwithalex.com/images/miniatures/verVsMirar.png" alt="No Sabo Kids" style="max-width: 100%; height: auto; border-radius: 8px;">
+    <img src="https://www.spanishwithalex.com/images/miniatures/newslettersGoingUpStairs.jpg" alt="Learning Spanish" style="max-width: 100%; height: auto; border-radius: 8px;">
   </div>
  
-  <h1>The "Mistake" That Became a Real Word 😲</h1>
+  <h1>The Secret Nobody Tells You About Learning Spanish 🤫</h1>
  
   <p class="first-paragraph">
-    Have you ever heard the term <span class="highlight">"no sabo kids"</span>? It refers to second-generation Latino children in the US who grew up mixing English and Spanish — and sometimes say things like "no sabo" instead of "no sé". Grammatically? Not standard Spanish. Linguistically? Absolutely fascinating.
+    After years of teaching, I've noticed a clear pattern: some students progress fast, and others stay stuck. And surprisingly, it has very little to do with talent.
   </p>
  
   <p>
-    Here's the thing: "no sabo" follows a completely logical pattern. In Spanish, most verbs in the first person singular end in <span class="highlight">-o</span>: hablo, como, escribo. So a child hears the language and applies the rule — yo sabo. It makes perfect sense. Their brain is doing exactly what it should do: finding patterns.
+    The students who succeed aren't the ones who study the most hours. They're the ones who stay <span class="highlight">curious</span>. They ask questions like "why does Spanish work this way?" instead of just memorising rules. That small shift changes everything.
   </p>
  
   <p>
-    This is actually how languages evolve. What we call a "mistake" today can become standard usage in a generation. Latin evolved into Spanish, French, Italian and Portuguese partly through "mistakes" — people simplifying, mixing, adapting. Language is alive, and it grows through its speakers.
+    Another thing they do? They embrace mistakes. Every error is a clue about how your brain is processing the language. A wrong verb tense isn't a failure — it's your brain working things out out loud. That's actually beautiful.
   </p>
  
   <p>
-    So next time you say something that isn't quite right in Spanish, remember: you're not failing at the language. You're participating in it. Your brain is making connections, finding patterns, building bridges. That's not a mistake — that's <span class="highlight">how every language learner has ever learned</span>.
+    Successful students also find <span class="highlight">Spanish outside the classroom</span>. A Spanish song on the way to work. A short podcast episode while cooking. A text message typed in Spanish to a friend. Small moments add up faster than you think.
   </p>
  
   <p>
-    I love talking about this kind of thing — the quirky, surprising side of Spanish — in my podcast. If you enjoy learning through stories and curiosities, you'll feel right at home. 👇
+    And finally — they don't wait until they're "ready" to speak. They speak now, imperfectly, and they grow. There is no magic level of fluency where speaking suddenly becomes easy. It gets easier by doing it.
+  </p>
+ 
+  <p>
+    Want to put this into practice? I talk about all of this — and more — in my podcast. It's full of real stories, tips, and Spanish you can actually use in everyday life. 👇
   </p>
  
   <p style="text-align: center;">
@@ -107,4 +111,4 @@ const noSaboKidsEmail = () => `
 </html>
 `;
 
-export default noSaboKidsEmail;
+export default successStudentEmail;
