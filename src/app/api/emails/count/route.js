@@ -52,32 +52,32 @@ const emails = [
   },
 
   {
-    subject: "🔴 I solve problems.",
+    subject: "🔴 Make new friends.",
     html: friendsEmail(),
   },
 
   {
-    subject: "🔴 I solve problems.",
+    subject: "🔴 The good teacher.",
     html: goodTeacherEmail(),
   },
 
   {
-    subject: "🔴 I solve problems.",
+    subject: "🔴 The brain when we learn.",
     html: psychologyLearningEmail(),
   },
 
   {
-    subject: "🔴 I solve problems.",
+    subject: "🔴 No sabo kids.",
     html: noSaboKidsEmail(),
   },
 
   {
-    subject: "🔴 I solve problems.",
+    subject: "🔴 Cultura española.",
     html: spanishCultureEmail(),
   },
 
   {
-    subject: "🔴 I solve problems.",
+    subject: "🔴 El mejor estudiante.",
     html: successStudentEmail(),
   },
 ];
