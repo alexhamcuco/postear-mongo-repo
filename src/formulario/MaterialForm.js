@@ -396,7 +396,10 @@ const MaterialForm = () => {
           />
         </FormControl>
         <FormControl>
-          <FormLabel>URL del Contenido</FormLabel>
+          <FormLabel>
+            URL del Contenido
+            https://player.mediadelivery.net/embed/....24587alse&responsive=true
+          </FormLabel>
           <Input
             type="text"
             value={urlContenido}
