@@ -104,7 +104,7 @@ const goodTeacherEmail = () => `
   </p>
  
   <p class="signature">
-    If you want to contact me or unsubscribe from this email list, just reply to this email.
+    If you want to contact me or unsubscribe from this email list, just reply to this email. :(
   </p>
  
 </body>
