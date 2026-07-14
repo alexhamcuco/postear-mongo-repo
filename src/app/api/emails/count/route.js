@@ -92,6 +92,13 @@ const sendEmails = async (email, posicion) => {
 };
 
 export const GET = async () => {
+  return NextResponse.json(
+    { error: "Use POST to trigger newsletter sending." },
+    { status: 405 },
+  );
+};
+
+export const POST = async () => {
   await connectMongoDB();
 
   const newsletterList = await UserNewsletter.find();

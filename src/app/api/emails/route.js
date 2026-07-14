@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import connectMongoDB from "@/libs/mongodb";
-// import UserNewsletter from "@/models/userNewsletter";
+import UserNewsletter from "@/models/userNewsletter";
 import { createTransport } from "nodemailer";
 
 export const corsHeaders = {
